@@ -44,7 +44,7 @@ app_path="${script_path}/.."
 
 function download_code()
 {
-    if [ -d ${app_path}/presenterserver ];then
+    if [ -d ${script_path}/presenterserver ];then
         echo "presenterserver code is found..."
         return 0
     else
@@ -71,7 +71,7 @@ function download_code()
         echo "ERROR: uncompress presenterserver tar.gz file failed, please check ${presenterserver_download_url} connection."
         return 1
     fi
-    mv ${script_path}/presenterserver-${presenterserver_version} ${app_path}/presenterserver
+    mv ${script_path}/presenterserver-${presenterserver_version} ${script_path}/presenterserver
     rm -rf ${script_path}/presenterserver-${presenterserver_version}.zip
     rm -rf ${script_path}/presenterserver-${presenterserver_version}.ing
     return 0
