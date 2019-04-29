@@ -86,7 +86,7 @@ main()
         return 1
     fi
 
-    bash ${app_path}/presenterserver/prepare_presenter_server.sh ${remote_host} ${download_mode}
+    bash ${script_path}/prepare_presenter_server.sh ${remote_host} ${download_mode}
 
     if [[ $? -ne 0 ]];then
         return 1
