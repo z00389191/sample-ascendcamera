@@ -249,6 +249,8 @@ To stop the service, run the following command:
 
 ## Downloading Dependency Code Library<a name="en-us_topic_0167333650_section193081336153717"></a>
 
+Download the dependent software libraries to the **sample-ascendcamera/script** directory.
+
 **Table  1**  Download the dependent software library
 
 <a name="en-us_topic_0167333650_table141761431143110"></a>
@@ -274,6 +276,15 @@ To stop the service, run the following command:
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="en-us_topic_0167333650_p16684144715560"><a name="en-us_topic_0167333650_p16684144715560"></a><a name="en-us_topic_0167333650_p16684144715560"></a><a href="https://github.com/Ascend/sdk-presenter/tree/master/presenteragent" target="_blank" rel="noopener noreferrer">https://github.com/Ascend/sdk-presenter/tree/master/presenteragent</a></p>
 <p id="en-us_topic_0167333650_p82315442578"><a name="en-us_topic_0167333650_p82315442578"></a><a name="en-us_topic_0167333650_p82315442578"></a>After the download, keep the folder name <span class="filepath" id="en-us_topic_0167333650_filepath19800155745817"><a name="en-us_topic_0167333650_filepath19800155745817"></a><a name="en-us_topic_0167333650_filepath19800155745817"></a><b>presenteragent</b></span>.</p>
+</td>
+</tr>
+
+<tr id="en-us_topic_0167333650_row101773315313"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="en-us_topic_0167333650_p217773153110"><a name="en-us_topic_0167333650_p217773153110"></a><a name="en-us_topic_0167333650_p217773153110"></a>Presenter Server</p>
+</td>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="en-us_topic_0167333650_p19431399359"><a name="en-us_topic_0167333650_p19431399359"></a><a name="en-us_topic_0167333650_p19431399359"></a><span></span>Display the reasoning result pushed by the Presenter Agent, which can be accessed through a browser.</p>
+</td>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="en-us_topic_0167333650_p16684144715560"><a name="en-us_topic_0167333650_p16684144715560"></a><a name="en-us_topic_0167333650_p16684144715560"></a><a href="https://github.com/Ascend/sdk-presenter/tree/master/presenterserver" target="_blank" rel="noopener noreferrer">https://github.com/Ascend/sdk-presenter/tree/master/presenterserver</a></p>
+<p id="en-us_topic_0167333650_p82315442578"><a name="en-us_topic_0167333650_p82315442578"></a><a name="en-us_topic_0167333650_p82315442578"></a>After the download, keep the folder name <span class="filepath" id="en-us_topic_0167333650_filepath19800155745817"><a name="en-us_topic_0167333650_filepath19800155745817"></a><a name="en-us_topic_0167333650_filepath19800155745817"></a><b>presenterserver</b></span>.</p>
 </td>
 </tr>
 
