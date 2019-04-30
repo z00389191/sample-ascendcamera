@@ -276,6 +276,14 @@ To stop the service, run the following command:
 <p id="en-us_topic_0167333650_p82315442578"><a name="en-us_topic_0167333650_p82315442578"></a><a name="en-us_topic_0167333650_p82315442578"></a>After the download, keep the folder name <span class="filepath" id="en-us_topic_0167333650_filepath19800155745817"><a name="en-us_topic_0167333650_filepath19800155745817"></a><a name="en-us_topic_0167333650_filepath19800155745817"></a><b>presenteragent</b></span>.</p>
 </td>
 </tr>
+
+<tr id="en-us_topic_0167333650_row101773315313"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p>tornado (5.1.0)</p><p>protobuf (3.5.1)</p><p>numpy (1.14.2)</P>
+</td>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="en-us_topic_0167333650_p19431399359"><a name="en-us_topic_0167333650_p19431399359"></a><a name="en-us_topic_0167333650_p19431399359"></a><span>Python libraries that Presenter Server depends on.</span>.</p>
+</td>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="en-us_topic_0167333650_p16684144715560">Search for related sources and install them.</p>
+</td>
+</tr>
 </tbody>
 </table>
 
