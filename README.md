@@ -1,5 +1,3 @@
-# Ascendcamera\_single<a name="EN-US_TOPIC_0167573191"></a>
-
 Ascendcamera collects data through the camera on the Atlas 200 DK developer board, converts the data into JPG or H.264 video streams by using the digital vision pre-processing \(DVPP\) module, and saves the video streams as files or remote output.
 
 ## Prerequisites<a name="en-us_topic_0167333650_section412314183119"></a>
@@ -43,7 +41,7 @@ Before running the application, obtain the source code package and configure the
 1.  Log in to the root directory of the Ascend camera application code as the Mind Studio installation user, for example,  _**/home/ascend/sample-ascendcamera**_.
 2.  <a name="en-us_topic_0167333650_li08019112542"></a>Run the deployment script to prepare the project environment, including compiling and deploying the ascenddk public library, downloading the network model, and configuring Presenter Server.
 
-    **bash deploy.sh **_host\_ip_ _model\_mode_
+    **bash deploy.sh** _host\_ip_ _model\_mode_
 
     -   _host\_ip_: this parameter indicates the IP address of the Atlas 200 DK developer board.
     -   _model\_mode_  indicates the deployment mode of the model file. The default setting is  **internet**.
@@ -69,7 +67,7 @@ Before running the application, obtain the source code package and configure the
     **python3 script/presenterserver/presenter\_server.py --app display &**
 
     >![](doc/source/img/icon-note.gif) **NOTE:**   
-    >**presenter\_server.py**  is located in the  **presenterserve**  directory. You can run the  **python3 presenter\_server.py -h**  or  **python3 presenter\_server.py --help**  command in this directory to view the usage method of  **presenter\_server.py**.  
+    >**presenter\_server.py**  is located in the  **script/presenterserve**  directory. You can run the  **python3 presenter\_server.py -h**  or  **python3 presenter\_server.py --help**  command in this directory to view the usage method of  **presenter\_server.py**.  
 
     [Figure 2](#en-us_topic_0167333650_fig69531305324)  shows that the presenter\_server service is started successfully.
 
@@ -95,7 +93,7 @@ Before running the application, obtain the source code package and configure the
 3.  Run  **ascendcamera**  to save the media information offline.
     -   Example 1: Obtain an image from the camera and save it as a .jpg file. If a file with the same name already exists, overwrite it.
 
-        **./ascendcamera -i -c 1 -o  ** _/localDirectory/_**_filename.jpg_  --overwrite**
+        **./ascendcamera -i -c 1 -o  **_/localDirectory/filename.jpg_** **--overwrite**
 
         -   **-i**: Indicates that a JPG image is obtained.
         -   **-c**: Indicates the channel to which a camera belongs to. This parameter can be set to  **0**  or  **1**. The value  **0**  corresponds to  **Camera1**, and the value  **1**  corresponds to  **Camera2**. If this parameter is not set, the default value  **0**  is used.
@@ -223,7 +221,7 @@ Before running the application, obtain the source code package and configure the
 
 3.  Use VLC to receive video streams.
 
-    In the VLC media player on the host, choose  **Media**  \>** Open Network Stream**, enter  _tcp://__192.168.1.2__:__5000_/ in the  **Please enter a network URL**  text box, set the playback parameters, and watch the real-time video.
+    In the VLC media player on the host, choose  **Media \> Open Network Stream**, enter  _tcp://__192.168.1.2__:__5000_/ in the  **Please enter a network URL**  text box, set the playback parameters, and watch the real-time video.
 
     >![](doc/source/img/icon-note.gif) **NOTE:**   
     >The IP address and port number configured in VLC are those to which GStreamer sends videos in  [2](#en-us_topic_0167333650_li38395471836). The frame rate configured in VLC must be the same as that configured in  [2](#en-us_topic_0167333650_li38395471836).  
