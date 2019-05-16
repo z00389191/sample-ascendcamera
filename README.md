@@ -1,3 +1,5 @@
+EN|[CN](README_cn.md)
+
 Ascendcamera collects data through the camera on the Atlas 200 DK developer board, converts the data into JPG or H.264 video streams by using the digital vision pre-processing \(DVPP\) module, and saves the video streams as files or remote output.
 
 ## Prerequisites<a name="en-us_topic_0167333650_section412314183119"></a>
