@@ -106,7 +106,7 @@ Ascendcamera主要功能是通过Atlas 200 DK开发者板上的摄像头采集�
 
         -   --overwrite：覆盖已存在的同名文件。
 
-        其他详细参数请执行**./ascendcamera** 命令或者 **./ascendcamera --help** 命令参见帮助信息。
+        其他详细参数请执行 **./ascendcamera** 命令或者 **./ascendcamera --help** 命令参见帮助信息。
 
 
     -   示例2：从摄像头获取视频并保存为h264文件，如果已经存在同名文件则覆盖。
