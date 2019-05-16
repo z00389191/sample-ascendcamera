@@ -43,7 +43,7 @@ Ascendcamera主要功能是通过Atlas 200 DK开发者板上的摄像头采集�
 1.  以Mind Studio安装用户进入ascendcamera应用代码所在根目录，如“/home/ascend/sample-ascendcamera“。
 2.  <a name="zh-cn_topic_0167333823_li08019112542"></a>执行部署脚本，进行工程环境准备，包括ascenddk公共库的编译与部署、网络模型的下载、Presenter Server服务器的配置等操作。
 
-    **bash deploy.sh **_host\_ip_ _model\_mode_
+    **bash deploy.sh** _host\_ip_ _model\_mode_
 
     -   _host\_ip_：Atlas 200 DK开发者板的IP地址。
     -   model\_mode代表模型文件及依赖软件的部署方式，默认为internet。
@@ -106,7 +106,7 @@ Ascendcamera主要功能是通过Atlas 200 DK开发者板上的摄像头采集�
 
         -   --overwrite：覆盖已存在的同名文件。
 
-        其他详细参数请执行**./ascendcamera**命令或者**./ascendcamera --help**命令参见帮助信息。
+        其他详细参数请执行**./ascendcamera** 命令或者 **./ascendcamera --help** 命令参见帮助信息。
 
 
     -   示例2：从摄像头获取视频并保存为h264文件，如果已经存在同名文件则覆盖。
@@ -124,7 +124,7 @@ Ascendcamera主要功能是通过Atlas 200 DK开发者板上的摄像头采集�
 
         -   --overwrite：覆盖已存在的文件。
 
-        其他详细参数请执行**./ascendcamera**命令或者**./ascendcamera --help**命令参见帮助信息。
+        其他详细参数请执行 **./ascendcamera** 命令或者 **./ascendcamera --help** 命令参见帮助信息。
 
         >![](doc/source/img/icon-note.gif) **说明：**   
         >-   此文件可使用vlc播放器进行播放，VLC的下载及使用可参考[https://www.videolan.org/vlc/download-sources.html](https://www.videolan.org/vlc/download-sources.html)。  
@@ -155,7 +155,7 @@ Ascendcamera主要功能是通过Atlas 200 DK开发者板上的摄像头采集�
     -   -s后面的值_10.10.10.1_为Presenter Server的IP地址（即[2](#zh-cn_topic_0167333823_li08019112542)中输入的访问Presenter Server的IP地址），7002为Ascendcamera应用对应的Presenter Server服务器的默认端口号。
     -   _presenter\_view\_app\_name_为在Presenter Server端展示的“View Name“，用户自定义。
 
-    其他详细参数请执行**./ascendcamera**命令或者**./ascendcamera --help**命令参见帮助信息。
+    其他详细参数请执行 **./ascendcamera** 命令或者 **./ascendcamera --help** 命令参见帮助信息。
 
     >![](doc/source/img/icon-note.gif) **说明：**   
     >-   Ascendcamera的Presenter Server最多支持10路Channel同时显示，每个_presenter\_view\_app\_name_对应一路Channel。  
