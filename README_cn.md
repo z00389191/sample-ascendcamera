@@ -153,12 +153,12 @@ Ascendcamera主要功能是通过Atlas 200 DK开发者板上的摄像头采集�
     -   -w：表示存储视频的宽。
     -   -h：表示存储视频的高。
     -   -s后面的值_10.10.10.1_为Presenter Server的IP地址（即[2](#zh-cn_topic_0167333823_li08019112542)中输入的访问Presenter Server的IP地址），7002为Ascendcamera应用对应的Presenter Server服务器的默认端口号。
-    -   _presenter\_view\_app\_name_为在Presenter Server端展示的“View Name“，用户自定义。
+    -   _presenter\_view\_app\_name_ 为在Presenter Server端展示的“View Name“，用户自定义。
 
     其他详细参数请执行 **./ascendcamera** 命令或者 **./ascendcamera --help** 命令参见帮助信息。
 
     >![](doc/source/img/icon-note.gif) **说明：**   
-    >-   Ascendcamera的Presenter Server最多支持10路Channel同时显示，每个_presenter\_view\_app\_name_对应一路Channel。  
+    >-   Ascendcamera的Presenter Server最多支持10路Channel同时显示，每个_presenter\_view\_app\_name_ 对应一路Channel。  
     >-   由于硬件的限制，每一路支持的最大帧率是20fps，受限于网络带宽的影响，帧率会自动适配为较低的帧率进行展示。  
 
 

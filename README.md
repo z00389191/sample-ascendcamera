@@ -117,7 +117,7 @@ Before running the application, obtain the source code package and configure the
         -   **-c**: Indicates the channel to which a camera belongs to. This parameter can be set to  **0**  or  **1**. The value  **0**  corresponds to  **Camera1**, and the value  **1**  corresponds to  **Camera2**. If this parameter is not set, the default value  **0**  is used.
         -   **-t**: Indicates that a video file lasting 60 seconds is obtained. If this parameter is not specified, the video file is obtained until the application exits.
         -   **--fps**: Indicates the frame rate of a saved video. The value range is 1–20. The default video frame rate is 10 fps.
-        -   **-o**: Indicates the file storage location.** localDirectory**  is the name of a local folder.  **filename.h264**  is the name of a saved video, which can be user-defined.
+        -   **-o**: Indicates the file storage location. **localDirectory**  is the name of a local folder.  **filename.h264**  is the name of a saved video, which can be user-defined.
 
             >![](doc/source/img/icon-note.gif) **NOTE:**   
             >The  **HwHiAiUser**  user must have the read and write permissions on the path.  
