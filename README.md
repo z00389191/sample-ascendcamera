@@ -223,7 +223,7 @@ Before running the application, obtain the source code package and configure the
 
 3.  Use VLC to receive video streams.
 
-    In the VLC media player on the host, choose  **Media \> Open Network Stream**, enter  _tcp://__192.168.1.2__:__5000_/ in the  **Please enter a network URL**  text box, set the playback parameters, and watch the real-time video.
+    In the VLC media player on the host, choose  **Media \> Open Network Stream**, enter  _tcp://192.168.1.2:5000/_ in the  **Please enter a network URL**  text box, set the playback parameters, and watch the real-time video.
 
     >![](doc/source/img/icon-note.gif) **NOTE:**   
     >The IP address and port number configured in VLC are those to which GStreamer sends videos in  [2](#en-us_topic_0167333650_li38395471836). The frame rate configured in VLC must be the same as that configured in  [2](#en-us_topic_0167333650_li38395471836).  
