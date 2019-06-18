@@ -38,7 +38,7 @@ script_path="$( cd "$(dirname "$0")" ; pwd -P )"
 remote_host=$1
 download_mode=$2
 
-presenterserver_version="1.0.0"
+presenterserver_version="1.1.1"
 
 app_path="${script_path}/.."
 
